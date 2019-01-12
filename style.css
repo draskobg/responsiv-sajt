@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    margin: 0;
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#navigation {
+    background-color: black;
+    height: 60px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: calc(5% + 4px);
+    padding-right: calc(5% + 4px);
+}
+
+.logo img {
+    width: 110px;
+}
+
+
+header a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  left: 210px;
+  top: 4px;
+  z-index: 1;
+  
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: white;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+.section {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 2em;
+    letter-spacing: -0.025em;
+    padding: 31px;
+
+}
+
+.sell {
+    font-weight: 400;
+    color: #637381;
+    font-size: 1.3em;
+    line-height: 1.22;
+    margin-top: -40px;
+    padding: 17px;
+}
+
+.forma input {
+    display: inline-block;
+    height: 3.2em;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 10px;
+    color: #30373b;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    box-shadow: 0 0 0 1px #c4cdd5;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: padding 150ms;
+    -webkit-appearance: none;
+}
+
+.forma button {
+     
+        background-color:#5c6ac4;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100%;
+      
+      
+}
+
+.sopify {
+    font-weight: 400;
+    color: #637381;
+    font-size: 1.3em;
+    line-height: 1.22;
+    padding: 17px;
+}
+
+.brand {
+    text-align: center;
+}
+
+.design {
+    font-weight: 400;
+    color: #637381;
+    font-size: 1.25em;
+}
+
+.online {
+    padding: 0 45px 15px;
+    color: #637381;
+    font-size: 1em;
+}
+
+.selling-online {
+    box-shadow: none;
+    background-color: transparent;
+    color: #5c6ac4;
+    border-width: 0.125em;
+    border-style: solid;
+    border-color: #5c6ac4;
+    width: 60%;
+    height: 41px;
+    border-radius: 5px;
+    border-width: 0.2em;
+}
+
+.brand img {
+    padding: 20px;
+    max-width: 100%;
+}
+
+.kvacica {
+    display: inline-block;
+    margin-left: 30px;
+}
+.brand h3 {
+    display: inline-block;    
+
+}
+
+.brand div {
+    border-bottom: 1px solid #dfe3e8;
+    display: inline-block;
+    text-align: left;
+}
